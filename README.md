@@ -1,70 +1,69 @@
-# [Shopping Cart](https://ayushmaangupta261.github.io/Shopping-App/)
+🛒 Shopping Cart
+A simple shopping cart web application built using React.
+It allows users to browse items, add/remove products from the cart, and view the total price dynamically.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+📦 Add items to the cart
 
-## Available Scripts
+➖ Remove items from the cart
 
-In the project directory, you can run:
+🔄 Update item quantities
 
-### `npm start`
+💰 Real-time calculation of total price
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚡ Clean and responsive user interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌐 Client-side routing (if implemented)
 
-### `npm test`
+🛠 Technologies Used
+React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+JavaScript (ES6+)
 
-### `npm run build`
+CSS / Tailwind / Bootstrap (adjust based on what you used)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Node.js (for build & tooling)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📂 Project Structure
+bash
+Copy
+Edit
+/src
+ ├── components/      # Reusable components (e.g. Cart, ProductList)
+ ├── pages/           # (If used) App pages/views
+ ├── App.js           # Main app component
+ ├── index.js         # Entry point
+/public
+ └── index.html
+📦 Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/Shrishti-27G/Shopping-Cart.git
+cd Shopping-Cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
+🏗️ Run Locally
+bash
+Copy
+Edit
+npm start
+Visit: http://localhost:3000
 
-### `npm run eject`
+🏭 Build for Production
+bash
+Copy
+Edit
+npm run build
+⚠️ Notes
+The app was bootstrapped with Create React App (CRA).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Consider migrating to Vite or Next.js in the future as CRA is no longer maintained.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you encounter the Babel plugin warning, install:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
