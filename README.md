@@ -1,4 +1,4 @@
-🛒 Shopping Cart
+🛒 Shopping Cart (https://shopping-cart-zh9s.onrender.com)
 
 A simple shopping cart web application built using React.
 It allows users to browse items, add/remove products from the cart, and view the total price dynamically.
