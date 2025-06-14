@@ -1,33 +1,26 @@
-🛒 Shopping Cart
+🛒 Shopping Cart [Live](https://shopping-cart-zh9s.onrender.com)
+
 A simple shopping cart web application built using React.
 It allows users to browse items, add/remove products from the cart, and view the total price dynamically.
 
+
 🚀 Features
+
 📦 Add items to the cart
-
 ➖ Remove items from the cart
-
 🔄 Update item quantities
-
 💰 Real-time calculation of total price
-
 ⚡ Clean and responsive user interface
 
-🌐 Client-side routing (if implemented)
 
 🛠 Technologies Used
+
 React
-
 JavaScript (ES6+)
-
-CSS / Tailwind / Bootstrap (adjust based on what you used)
-
+Tailwind CSS
 Node.js (for build & tooling)
 
 📂 Project Structure
-bash
-Copy
-Edit
 /src
  ├── components/      # Reusable components (e.g. Cart, ProductList)
  ├── pages/           # (If used) App pages/views
@@ -35,33 +28,30 @@ Edit
  ├── index.js         # Entry point
 /public
  └── index.html
+ 
 📦 Installation
 bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/Shrishti-27G/Shopping-Cart.git
 cd Shopping-Cart
 
 # Install dependencies
 npm install
+
 🏗️ Run Locally
 bash
-Copy
-Edit
 npm start
 Visit: http://localhost:3000
 
 🏭 Build for Production
 bash
-Copy
-Edit
 npm run build
+
+
 ⚠️ Notes
 The app was bootstrapped with Create React App (CRA).
-
 Consider migrating to Vite or Next.js in the future as CRA is no longer maintained.
-
 If you encounter the Babel plugin warning, install:
 
 bash
